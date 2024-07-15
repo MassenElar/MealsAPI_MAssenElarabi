@@ -1,6 +1,6 @@
 # README
 ## MealsAPI
-This App allows to fetch meals and their details using two endpoints using swift concurrency(async/await) in a MVVM architecture:
+This App allows to fetch meals and their details from two endpoints using swift concurrency(async/await) in a MVVM architecture:
 * [Dessert](https://themealdb.com/api/json/v1/1/filter.php?c=Dessert)
 * [Meals Details](https://themealdb.com/api/json/v1/1/lookup.php?i=MEAL_ID)
 
