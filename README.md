@@ -17,8 +17,8 @@ with all the ingredients needed. despite my expertise with Combine framework, I 
 all the business logic is fully unit-tested 
 
 <div align="center">
+ 	<img width = "33%" src="https://github.com/user-attachments/assets/6bd9dd27-2f89-4463-a237-e9140b6ddb41">
 	<img width = "33%" src="https://github.com/user-attachments/assets/5067039b-276a-435d-b4b6-0b3d47827236">
-  <img width = "33%" src="https://github.com/user-attachments/assets/6bd9dd27-2f89-4463-a237-e9140b6ddb41">
 </div>
 
 
