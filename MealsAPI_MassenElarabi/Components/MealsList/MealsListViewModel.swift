@@ -30,5 +30,4 @@ class MealsListViewModel: ObservableObject {
             print(error)
         }
     }
-    
 }

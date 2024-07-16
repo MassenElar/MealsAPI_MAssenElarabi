@@ -11,33 +11,11 @@ struct MealsListView: View {
     
     @ObservedObject var viewModel = MealsListViewModel()
     @State var isPresented: Bool = false
+    @State private var searchText: String = ""
     
     var body: some View {
         NavigationStack {
             content
-        }
-    }
-    
-    @ViewBuilder
-    var content: some View {
-        VStack(spacing: 0) {
-            Text("Dessert List")
-                .font(.largeTitle)
-                .foregroundStyle(.blue)
-                .padding()
-            Divider()
-            List {
-                ForEach(viewModel.meals, id: \.idMeal) { meal in
-                    mealRow(mealName: meal.strMeal, imageStr: meal.strMealThumb)
-                        .onTapGesture {
-                            viewModel.selectedRow = meal
-                            self.isPresented.toggle()
-                        }
-                }
-            }
-            .navigationDestination(isPresented: $isPresented) {
-                detailView
-            }
         }
         .task {
             await viewModel.fetchMeals()
@@ -45,9 +23,23 @@ struct MealsListView: View {
     }
     
     @ViewBuilder
-    var detailView: some View {
-        if let mealDetails = viewModel.selectedRow {
-            MealDetailsView(viewModel: MealDetailsViewModel(id: mealDetails.idMeal))
+    var content: some View {
+        VStack(spacing: 0) {
+            Divider()
+            List {
+                ForEach(searchResult, id: \.idMeal) { meal in
+                    mealRow(mealName: meal.strMeal, imageStr: meal.strMealThumb)
+                        .onTapGesture {
+                            viewModel.selectedRow = meal
+                            self.isPresented.toggle()
+                        }
+                }
+            }
+            .navigationTitle("Desserts List")
+            .searchable(text: $searchText)
+            .navigationDestination(isPresented: $isPresented) {
+                detailView
+            }
         }
     }
     
@@ -67,6 +59,22 @@ struct MealsListView: View {
                 .foregroundStyle(.blue)
         }
     }
+    
+    @ViewBuilder
+    var detailView: some View {
+        if let mealDetails = viewModel.selectedRow {
+            MealDetailsView(viewModel: MealDetailsViewModel(id: mealDetails.idMeal))
+        }
+    }
+    
+    var searchResult: [MealDetailsModel] {
+        if searchText.isEmpty {
+            return viewModel.meals
+        } else {
+            return viewModel.meals.filter({ $0.strMeal.contains(searchText) })
+        }
+    }
+    
 }
 
 #Preview {
