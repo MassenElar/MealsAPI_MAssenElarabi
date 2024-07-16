@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172F69622C3F33E0001EAE83 /* WebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172F69612C3F33E0001EAE83 /* WebServiceTests.swift */; };
+		172F69642C4087D1001EAE83 /* MockWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172F69632C4087D1001EAE83 /* MockWebService.swift */; };
+		172F69662C40AD2B001EAE83 /* MealListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172F69652C40AD2B001EAE83 /* MealListViewModelTests.swift */; };
+		172F69682C40CA4B001EAE83 /* MealsDetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172F69672C40CA4B001EAE83 /* MealsDetailsViewModelTests.swift */; };
+		17D0681C2C3F2D2400079722 /* MealsAPI_MassenElarabiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D0681B2C3F2D2400079722 /* MealsAPI_MassenElarabiApp.swift */; };
+		17D0681E2C3F2D2400079722 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D0681D2C3F2D2400079722 /* ContentView.swift */; };
+		17D068202C3F2D2600079722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D0681F2C3F2D2600079722 /* Assets.xcassets */; };
+		17D068232C3F2D2600079722 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D068222C3F2D2600079722 /* Preview Assets.xcassets */; };
+		17D068372C3F2D2600079722 /* MealsAPI_MassenElarabiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D068362C3F2D2600079722 /* MealsAPI_MassenElarabiUITests.swift */; };
+		17D068392C3F2D2600079722 /* MealsAPI_MassenElarabiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D068382C3F2D2600079722 /* MealsAPI_MassenElarabiUITestsLaunchTests.swift */; };
+		17D068502C3F2F1900079722 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D0684F2C3F2F1900079722 /* Extensions.swift */; };
+		17D0685E2C3F2FA700079722 /* MealDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D068572C3F2FA700079722 /* MealDetailsModel.swift */; };
+		17D0685F2C3F2FA700079722 /* MealDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D068582C3F2FA700079722 /* MealDetailsViewModel.swift */; };
+		17D068602C3F2FA700079722 /* MealDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D068592C3F2FA700079722 /* MealDetailsView.swift */; };
+		17D068612C3F2FA700079722 /* MealsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D0685B2C3F2FA700079722 /* MealsListViewModel.swift */; };
+		17D068622C3F2FA700079722 /* MealsListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D0685C2C3F2FA700079722 /* MealsListModel.swift */; };
+		17D068632C3F2FA700079722 /* MealsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D0685D2C3F2FA700079722 /* MealsListView.swift */; };
+		17D068662C3F2FB400079722 /* MealsWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D068652C3F2FB400079722 /* MealsWebService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17D068292C3F2D2600079722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17D068102C3F2D2400079722 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17D068172C3F2D2400079722;
+			remoteInfo = MealsAPI_MassenElarabi;
+		};
+		17D068332C3F2D2600079722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17D068102C3F2D2400079722 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17D068172C3F2D2400079722;
+			remoteInfo = MealsAPI_MassenElarabi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		172F69612C3F33E0001EAE83 /* WebServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceTests.swift; sourceTree = "<group>"; };
+		172F69632C4087D1001EAE83 /* MockWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWebService.swift; sourceTree = "<group>"; };
+		172F69652C40AD2B001EAE83 /* MealListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListViewModelTests.swift; sourceTree = "<group>"; };
+		172F69672C40CA4B001EAE83 /* MealsDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsDetailsViewModelTests.swift; sourceTree = "<group>"; };
+		17D068182C3F2D2400079722 /* MealsAPI_MassenElarabi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealsAPI_MassenElarabi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D0681B2C3F2D2400079722 /* MealsAPI_MassenElarabiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsAPI_MassenElarabiApp.swift; sourceTree = "<group>"; };
+		17D0681D2C3F2D2400079722 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17D0681F2C3F2D2600079722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17D068222C3F2D2600079722 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17D068282C3F2D2600079722 /* MealsAPI_MassenElarabiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealsAPI_MassenElarabiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D068322C3F2D2600079722 /* MealsAPI_MassenElarabiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealsAPI_MassenElarabiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D068362C3F2D2600079722 /* MealsAPI_MassenElarabiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsAPI_MassenElarabiUITests.swift; sourceTree = "<group>"; };
+		17D068382C3F2D2600079722 /* MealsAPI_MassenElarabiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsAPI_MassenElarabiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17D0684F2C3F2F1900079722 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		17D068572C3F2FA700079722 /* MealDetailsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealDetailsModel.swift; sourceTree = "<group>"; };
+		17D068582C3F2FA700079722 /* MealDetailsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealDetailsViewModel.swift; sourceTree = "<group>"; };
+		17D068592C3F2FA700079722 /* MealDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealDetailsView.swift; sourceTree = "<group>"; };
+		17D0685B2C3F2FA700079722 /* MealsListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealsListViewModel.swift; sourceTree = "<group>"; };
+		17D0685C2C3F2FA700079722 /* MealsListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealsListModel.swift; sourceTree = "<group>"; };
+		17D0685D2C3F2FA700079722 /* MealsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealsListView.swift; sourceTree = "<group>"; };
+		17D068652C3F2FB400079722 /* MealsWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealsWebService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17D068152C3F2D2400079722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D068252C3F2D2600079722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D0682F2C3F2D2600079722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17D0680F2C3F2D2400079722 = {
+			isa = PBXGroup;
+			children = (
+				17D0681A2C3F2D2400079722 /* MealsAPI_MassenElarabi */,
+				17D0682B2C3F2D2600079722 /* MealsAPI_MassenElarabiTests */,
+				17D068352C3F2D2600079722 /* MealsAPI_MassenElarabiUITests */,
+				17D068192C3F2D2400079722 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17D068192C3F2D2400079722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17D068182C3F2D2400079722 /* MealsAPI_MassenElarabi.app */,
+				17D068282C3F2D2600079722 /* MealsAPI_MassenElarabiTests.xctest */,
+				17D068322C3F2D2600079722 /* MealsAPI_MassenElarabiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17D0681A2C3F2D2400079722 /* MealsAPI_MassenElarabi */ = {
+			isa = PBXGroup;
+			children = (
+				17D068642C3F2FB400079722 /* WebService */,
+				17D068552C3F2FA700079722 /* Components */,
+				17D0684E2C3F2F1900079722 /* Utilities */,
+				17D0681B2C3F2D2400079722 /* MealsAPI_MassenElarabiApp.swift */,
+				17D0681D2C3F2D2400079722 /* ContentView.swift */,
+				17D0681F2C3F2D2600079722 /* Assets.xcassets */,
+				17D068212C3F2D2600079722 /* Preview Content */,
+			);
+			path = MealsAPI_MassenElarabi;
+			sourceTree = "<group>";
+		};
+		17D068212C3F2D2600079722 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				17D068222C3F2D2600079722 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17D0682B2C3F2D2600079722 /* MealsAPI_MassenElarabiTests */ = {
+			isa = PBXGroup;
+			children = (
+				172F69612C3F33E0001EAE83 /* WebServiceTests.swift */,
+				172F69632C4087D1001EAE83 /* MockWebService.swift */,
+				172F69652C40AD2B001EAE83 /* MealListViewModelTests.swift */,
+				172F69672C40CA4B001EAE83 /* MealsDetailsViewModelTests.swift */,
+			);
+			path = MealsAPI_MassenElarabiTests;
+			sourceTree = "<group>";
+		};
+		17D068352C3F2D2600079722 /* MealsAPI_MassenElarabiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17D068362C3F2D2600079722 /* MealsAPI_MassenElarabiUITests.swift */,
+				17D068382C3F2D2600079722 /* MealsAPI_MassenElarabiUITestsLaunchTests.swift */,
+			);
+			path = MealsAPI_MassenElarabiUITests;
+			sourceTree = "<group>";
+		};
+		17D0684E2C3F2F1900079722 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				17D0684F2C3F2F1900079722 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		17D068552C3F2FA700079722 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				17D068562C3F2FA700079722 /* MealDetails */,
+				17D0685A2C3F2FA700079722 /* MealsList */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		17D068562C3F2FA700079722 /* MealDetails */ = {
+			isa = PBXGroup;
+			children = (
+				17D068572C3F2FA700079722 /* MealDetailsModel.swift */,
+				17D068582C3F2FA700079722 /* MealDetailsViewModel.swift */,
+				17D068592C3F2FA700079722 /* MealDetailsView.swift */,
+			);
+			path = MealDetails;
+			sourceTree = "<group>";
+		};
+		17D0685A2C3F2FA700079722 /* MealsList */ = {
+			isa = PBXGroup;
+			children = (
+				17D0685B2C3F2FA700079722 /* MealsListViewModel.swift */,
+				17D0685C2C3F2FA700079722 /* MealsListModel.swift */,
+				17D0685D2C3F2FA700079722 /* MealsListView.swift */,
+			);
+			path = MealsList;
+			sourceTree = "<group>";
+		};
+		17D068642C3F2FB400079722 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				17D068652C3F2FB400079722 /* MealsWebService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17D068172C3F2D2400079722 /* MealsAPI_MassenElarabi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D0683C2C3F2D2600079722 /* Build configuration list for PBXNativeTarget "MealsAPI_MassenElarabi" */;
+			buildPhases = (
+				17D068142C3F2D2400079722 /* Sources */,
+				17D068152C3F2D2400079722 /* Frameworks */,
+				17D068162C3F2D2400079722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MealsAPI_MassenElarabi;
+			productName = MealsAPI_MassenElarabi;
+			productReference = 17D068182C3F2D2400079722 /* MealsAPI_MassenElarabi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17D068272C3F2D2600079722 /* MealsAPI_MassenElarabiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D0683F2C3F2D2600079722 /* Build configuration list for PBXNativeTarget "MealsAPI_MassenElarabiTests" */;
+			buildPhases = (
+				17D068242C3F2D2600079722 /* Sources */,
+				17D068252C3F2D2600079722 /* Frameworks */,
+				17D068262C3F2D2600079722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17D0682A2C3F2D2600079722 /* PBXTargetDependency */,
+			);
+			name = MealsAPI_MassenElarabiTests;
+			productName = MealsAPI_MassenElarabiTests;
+			productReference = 17D068282C3F2D2600079722 /* MealsAPI_MassenElarabiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17D068312C3F2D2600079722 /* MealsAPI_MassenElarabiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D068422C3F2D2600079722 /* Build configuration list for PBXNativeTarget "MealsAPI_MassenElarabiUITests" */;
+			buildPhases = (
+				17D0682E2C3F2D2600079722 /* Sources */,
+				17D0682F2C3F2D2600079722 /* Frameworks */,
+				17D068302C3F2D2600079722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17D068342C3F2D2600079722 /* PBXTargetDependency */,
+			);
+			name = MealsAPI_MassenElarabiUITests;
+			productName = MealsAPI_MassenElarabiUITests;
+			productReference = 17D068322C3F2D2600079722 /* MealsAPI_MassenElarabiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17D068102C3F2D2400079722 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					17D068172C3F2D2400079722 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					17D068272C3F2D2600079722 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 17D068172C3F2D2400079722;
+					};
+					17D068312C3F2D2600079722 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 17D068172C3F2D2400079722;
+					};
+				};
+			};
+			buildConfigurationList = 17D068132C3F2D2400079722 /* Build configuration list for PBXProject "MealsAPI_MassenElarabi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17D0680F2C3F2D2400079722;
+			productRefGroup = 17D068192C3F2D2400079722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17D068172C3F2D2400079722 /* MealsAPI_MassenElarabi */,
+				17D068272C3F2D2600079722 /* MealsAPI_MassenElarabiTests */,
+				17D068312C3F2D2600079722 /* MealsAPI_MassenElarabiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17D068162C3F2D2400079722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D068232C3F2D2600079722 /* Preview Assets.xcassets in Resources */,
+				17D068202C3F2D2600079722 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D068262C3F2D2600079722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D068302C3F2D2600079722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17D068142C3F2D2400079722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D068612C3F2FA700079722 /* MealsListViewModel.swift in Sources */,
+				17D068632C3F2FA700079722 /* MealsListView.swift in Sources */,
+				17D0681E2C3F2D2400079722 /* ContentView.swift in Sources */,
+				17D068662C3F2FB400079722 /* MealsWebService.swift in Sources */,
+				17D068502C3F2F1900079722 /* Extensions.swift in Sources */,
+				17D0681C2C3F2D2400079722 /* MealsAPI_MassenElarabiApp.swift in Sources */,
+				17D0685F2C3F2FA700079722 /* MealDetailsViewModel.swift in Sources */,
+				17D068602C3F2FA700079722 /* MealDetailsView.swift in Sources */,
+				17D068622C3F2FA700079722 /* MealsListModel.swift in Sources */,
+				17D0685E2C3F2FA700079722 /* MealDetailsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D068242C3F2D2600079722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172F69682C40CA4B001EAE83 /* MealsDetailsViewModelTests.swift in Sources */,
+				172F69642C4087D1001EAE83 /* MockWebService.swift in Sources */,
+				172F69622C3F33E0001EAE83 /* WebServiceTests.swift in Sources */,
+				172F69662C40AD2B001EAE83 /* MealListViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D0682E2C3F2D2600079722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D068392C3F2D2600079722 /* MealsAPI_MassenElarabiUITestsLaunchTests.swift in Sources */,
+				17D068372C3F2D2600079722 /* MealsAPI_MassenElarabiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17D0682A2C3F2D2600079722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17D068172C3F2D2400079722 /* MealsAPI_MassenElarabi */;
+			targetProxy = 17D068292C3F2D2600079722 /* PBXContainerItemProxy */;
+		};
+		17D068342C3F2D2600079722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17D068172C3F2D2400079722 /* MealsAPI_MassenElarabi */;
+			targetProxy = 17D068332C3F2D2600079722 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17D0683A2C3F2D2600079722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17D0683B2C3F2D2600079722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17D0683D2C3F2D2600079722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MealsAPI_MassenElarabi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mass.MealsAPI-MassenElarabi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17D0683E2C3F2D2600079722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MealsAPI_MassenElarabi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mass.MealsAPI-MassenElarabi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17D068402C3F2D2600079722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mass.MealsAPI-MassenElarabiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MealsAPI_MassenElarabi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MealsAPI_MassenElarabi";
+			};
+			name = Debug;
+		};
+		17D068412C3F2D2600079722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mass.MealsAPI-MassenElarabiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MealsAPI_MassenElarabi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MealsAPI_MassenElarabi";
+			};
+			name = Release;
+		};
+		17D068432C3F2D2600079722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mass.MealsAPI-MassenElarabiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MealsAPI_MassenElarabi;
+			};
+			name = Debug;
+		};
+		17D068442C3F2D2600079722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mass.MealsAPI-MassenElarabiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MealsAPI_MassenElarabi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17D068132C3F2D2400079722 /* Build configuration list for PBXProject "MealsAPI_MassenElarabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D0683A2C3F2D2600079722 /* Debug */,
+				17D0683B2C3F2D2600079722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D0683C2C3F2D2600079722 /* Build configuration list for PBXNativeTarget "MealsAPI_MassenElarabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D0683D2C3F2D2600079722 /* Debug */,
+				17D0683E2C3F2D2600079722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D0683F2C3F2D2600079722 /* Build configuration list for PBXNativeTarget "MealsAPI_MassenElarabiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D068402C3F2D2600079722 /* Debug */,
+				17D068412C3F2D2600079722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D068422C3F2D2600079722 /* Build configuration list for PBXNativeTarget "MealsAPI_MassenElarabiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D068432C3F2D2600079722 /* Debug */,
+				17D068442C3F2D2600079722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17D068102C3F2D2400079722 /* Project object */;
+}
